@@ -3,8 +3,8 @@ import { MAIN_TOKEN_ADDRESS, SALE_CONTRACT_ADDRESS } from "../env";
 import Web3 from "web3";
 import { MerkleTree } from "merkletreejs";
 import keccak from "keccak256";
-const maintokenABI = require("../interactWithSmartContracts/mainToken.json");
-const saleContractABI = require("../interactWithSmartContracts/saleContract.json");
+const maintokenABI = require("./mainToken.json");
+const saleContractABI = require("./saleContract.json");
 
 const GAS_STATION = "https://api.debank.com/chain/gas_price_dict_v2?chain=eth";
 
