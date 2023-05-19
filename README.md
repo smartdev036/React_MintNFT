@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Minting NFT
+## Available Scripts
 
 Please note that you should have to use Node18.10.0 .
 In the project directory, you can run:
